@@ -1,0 +1,28 @@
+.slider {
+  width: 20%;
+}
+.slider img {
+  width: 100%;
+}
+
+.next, .prev {
+  position: absolute;
+  top: 25%;
+  font-size: 30px;
+  background-color: #fff;
+  border: 1px solid grey;
+  border-radius: 100%;
+  padding: 9px 22px;
+  transition: 0.4s;
+}
+.next:hover, .prev:hover {
+  background-color: #d7d4d4;
+}
+
+.next {
+  right: 20px;
+}
+
+.prev {
+  left: 20px;
+}/*# sourceMappingURL=style.css.map */
